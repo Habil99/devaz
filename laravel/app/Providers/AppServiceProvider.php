@@ -30,9 +30,9 @@ class AppServiceProvider extends ServiceProvider
     {
         Model::unguard();
 
-        Relation::enforceMorphMap([
-            'office' => Office::class,
-            'user' => User::class
-        ]);
+        // Relation::enforceMorphMap([
+        //     'office' => Office::class,
+        //     'user' => User::class
+        // ]);
     }
 }

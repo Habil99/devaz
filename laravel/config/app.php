@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'license_key' => env('NOVA_LICENSE_KEY', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -173,6 +174,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        App\Providers\NovaServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
     ],
