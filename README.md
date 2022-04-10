@@ -13,7 +13,9 @@ We appreciate Mohamed Said's hardwork and detailed explanation via https://www.y
 
 - $ mkdir ~/projects/devaz
 
-- $ clone https://github.com/themsaid/ergodnc.git via VSCode
+- $ git clone https://github.com/rashad404/devaz.git
+
+- $ cd laravel
 
 - $ npm i
 
@@ -27,7 +29,7 @@ We appreciate Mohamed Said's hardwork and detailed explanation via https://www.y
 
 - $ php artisan serve
 
-- copy .env file and configure DB settings:
+- Copy .env file from .env.example and configure DB settings:
   
   DB_DATABASE=devaz
   
@@ -35,7 +37,7 @@ We appreciate Mohamed Said's hardwork and detailed explanation via https://www.y
   
   DB_PASSWORD=
 
-- add these lines to .env file
+- Add these lines to .env file
   
   SANCTUM_STATEFUL_DOMAINS=app.devaz.test
   
@@ -46,7 +48,7 @@ We appreciate Mohamed Said's hardwork and detailed explanation via https://www.y
 
 **NextJS Installation**
 
-- $ clone https://github.com/themsaid/ergodnc-nextjs via VSCode
+- $ cd next
 - $ npm i
 - $ Change baseURL to 'http://api.devaz.test' on lib/axios.js
 - $ npm run dev
@@ -62,6 +64,6 @@ We appreciate Mohamed Said's hardwork and detailed explanation via https://www.y
 - $ valet link api.devaz
 - $ cd ~/projects/devaz/next
 - $ valet proxy app.devaz http://127.0.0.1:3000
-- Then you can see 
+- Then you can see
   - laravel app on http://api.devaz.test
   - next app on http://app.devaz.test
